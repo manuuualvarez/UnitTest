@@ -17,6 +17,10 @@
 		FE9388AC263E3F0C002CF308 /* CourseUnitTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9388AB263E3F0C002CF308 /* CourseUnitTestUITests.swift */; };
 		FE9388BB263E4229002CF308 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9388BA263E4229002CF308 /* Calculator.swift */; };
 		FE9388BE263E4398002CF308 /* CalculatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9388BD263E4398002CF308 /* CalculatorTest.swift */; };
+		FEF1ECC0263F0A630080C9BF /* CalculatorTemp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF1ECBF263F0A630080C9BF /* CalculatorTemp.swift */; };
+		FEF1ECC2263F0BD10080C9BF /* CalculatorTempTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF1ECC1263F0BD10080C9BF /* CalculatorTempTest.swift */; };
+		FEF1ECC4263F105F0080C9BF /* StringManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF1ECC3263F105F0080C9BF /* StringManager.swift */; };
+		FEF1ECC6263F111B0080C9BF /* StringManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF1ECC5263F111B0080C9BF /* StringManagerTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		FE9388AD263E3F0C002CF308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE9388BA263E4229002CF308 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		FE9388BD263E4398002CF308 /* CalculatorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTest.swift; sourceTree = "<group>"; };
+		FEF1ECBF263F0A630080C9BF /* CalculatorTemp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTemp.swift; sourceTree = "<group>"; };
+		FEF1ECC1263F0BD10080C9BF /* CalculatorTempTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTempTest.swift; sourceTree = "<group>"; };
+		FEF1ECC3263F105F0080C9BF /* StringManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringManager.swift; sourceTree = "<group>"; };
+		FEF1ECC5263F111B0080C9BF /* StringManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringManagerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +146,8 @@
 			isa = PBXGroup;
 			children = (
 				FE9388BA263E4229002CF308 /* Calculator.swift */,
+				FEF1ECBF263F0A630080C9BF /* CalculatorTemp.swift */,
+				FEF1ECC3263F105F0080C9BF /* StringManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -146,6 +156,8 @@
 			isa = PBXGroup;
 			children = (
 				FE9388BD263E4398002CF308 /* CalculatorTest.swift */,
+				FEF1ECC1263F0BD10080C9BF /* CalculatorTempTest.swift */,
+				FEF1ECC5263F111B0080C9BF /* StringManagerTest.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -280,8 +292,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEF1ECC4263F105F0080C9BF /* StringManager.swift in Sources */,
 				FE93888E263E3F0A002CF308 /* ViewController.swift in Sources */,
 				FE9388BB263E4229002CF308 /* Calculator.swift in Sources */,
+				FEF1ECC0263F0A630080C9BF /* CalculatorTemp.swift in Sources */,
 				FE93888A263E3F0A002CF308 /* AppDelegate.swift in Sources */,
 				FE93888C263E3F0A002CF308 /* SceneDelegate.swift in Sources */,
 			);
@@ -291,7 +305,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEF1ECC6263F111B0080C9BF /* StringManagerTest.swift in Sources */,
 				FE9388A1263E3F0C002CF308 /* CourseUnitTestTests.swift in Sources */,
+				FEF1ECC2263F0BD10080C9BF /* CalculatorTempTest.swift in Sources */,
 				FE9388BE263E4398002CF308 /* CalculatorTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
