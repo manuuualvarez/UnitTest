@@ -10,13 +10,22 @@ import Foundation
 
 class Calculator {
     
-    private func add(val1: Int, val2: Int) -> Int{
+    func add(val1: Int, val2: Int) -> Int{
         return val1 + val2
     }
     
-    private func substrac(val1: Int, val2: Int) -> Int {
+   func substrac(val1: Int, val2: Int) -> Int {
         return val1 - val2
     }
     
-    
+    func divide (n1: Int, n2: Int) throws -> Int {
+        if (n2 == 0) {
+            throw CalculatorError.CantDivideByZero
+        }
+        return n1 / n2
+    }
+}
+
+enum CalculatorError : Error {
+    case CantDivideByZero
 }
